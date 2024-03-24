@@ -6,3 +6,4 @@ from sklearn.metrics import accuracy_score
 
 sonar_data = pd.read_csv('sonar.csv', header=None)
 sonar_data.head()
+sonar_data.shape()
